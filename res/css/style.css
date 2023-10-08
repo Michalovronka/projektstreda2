@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+#cookie {
+  max-width: 500px;
+  width: 100%;
+
+}
+*{
+  user-select: none;
+}
+body{
+  background-image: url(../img/les.jpg);
+  background-size: cover;
+  font-family: 'Caveat', cursive;
+}
+p{
+  color: white;
+  background-color: black;
+  padding: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
+  border: white 5px solid;
+
+}
+.telo{
+  margin: auto;
+  width: 400px;
+  margin-top: 50px;
+}
+#upgradeClickButton{
+  padding: 1.5em;
+  font-size: 1.1em;
+  background-color: rgb(118, 118, 228);
+  border: white 5px solid;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+#upgradeAutoClickButton{
+  width: 100%;
+  padding: 1.5em;
+  font-size: 1.1em;
+  background-color: rgb(99, 99, 206);
+  border: white 5px solid;
+}
+#upgradeClickButtonWrapper{
+  display: flex;
+
+}
+#imgUpgradeClickButtonWrapper{
+  max-width: 83px;
+  max-height: 83px;
+}
+#upgradeClickButtonWrapper:hover{
+  transform: scale(1.2);
+}
+#upgradeClickButton{
+  cursor: pointer;
+}
