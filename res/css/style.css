@@ -2,23 +2,23 @@
 #cookie {
   max-width: 500px;
   width: 100%;
-
 }
 *{
   user-select: none;
 }
 body{
-  background-image: url(../img/les.jpg);
+  background-image: url(../img/background.webp);
   background-size: cover;
   font-family: 'Caveat', cursive;
 }
 p{
-  color: white;
-  background-color: black;
-  padding: 1.5em;
+  color:  black;
+  background-color: #00FFFF;
+  padding: 1.2em;
   text-align: center;
-  font-size: 1.5em;
-  border: white 5px solid;
+  font-size: 1.8em;
+  border-radius: 5px;
+  border:#447CD1 5px solid;
 
 }
 .telo{
@@ -28,30 +28,56 @@ p{
 }
 #upgradeClickButton{
   padding: 1.5em;
-  font-size: 1.1em;
-  background-color: rgb(118, 118, 228);
-  border: white 5px solid;
+  font-size: large;
+  background-color: #6294e0;
+  border: #3b61a7 5px solid;
   width: 100%;
   margin-bottom: 1.5em;
 }
-#upgradeAutoClickButton{
-  width: 100%;
-  padding: 1.5em;
-  font-size: 1.1em;
-  background-color: rgb(99, 99, 206);
-  border: white 5px solid;
-}
 #upgradeClickButtonWrapper{
   display: flex;
-
+  cursor: pointer;
 }
 #imgUpgradeClickButtonWrapper{
-  max-width: 83px;
-  max-height: 83px;
+  max-width: 120px;
+  max-height: 86px;
+  background-color: white;
 }
 #upgradeClickButtonWrapper:hover{
   transform: scale(1.2);
 }
 #upgradeClickButton{
   cursor: pointer;
+}
+
+
+
+#upgradeAutoClickButtonWrapper:hover{
+  transform: scale(1.2);
+}
+#upgradeAutoClickButton{
+  width: 100%;
+  padding: 1.5em;
+  font-size: large;
+  background-color: #6294e0;
+  border:#3b61a7 5px solid;
+  cursor: pointer;
+}
+#upgradeAutoClickButtonWrapper{
+  display: flex;
+  cursor: pointer;
+}
+#imgUpgradeAutoClickButtonWrapper{
+  max-width: 120px;
+  max-height: 120px;
+  background-color: white;
+}
+#text{
+  color: white;
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+#cookie:hover{
+  cursor: url(../img/cursor.png), auto;
 }
